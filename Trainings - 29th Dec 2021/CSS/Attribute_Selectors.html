@@ -1,0 +1,30 @@
+<!Doctype html>
+<html>
+    <head>
+        <title> Attribute Selectors </title>
+        <style>
+            [href]{
+                color:red;
+            }
+
+            [src="https://www.achieversit.com/assets/images/logo-white.png"]{
+                width:100%;
+            }
+
+            [type^='aud']{
+                border:1px solid red;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="https://www.achieversit.com/assets/images/logo-white.png" alt="image not loaded">
+        <a href= "https://www.achieversit.com/" target="_blank">Achievers IT</a>
+        <input type = "text" name = "username">
+        <audio controls autoplay>
+            <source src = "./Multimedia/sample.mp3" type="audio/mp3">
+        </audio>
+        <video controls autoplay>
+            <source src = "./Multimedia/sample.mp4" type="video/mp4">
+        </video>
+    </body>
+</html>

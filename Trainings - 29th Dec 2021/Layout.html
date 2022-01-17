@@ -1,0 +1,51 @@
+<!Doctype html>
+<html>
+    <head>
+        <title> Layouts - HTML + CSS </title>
+    </head>
+    <body>
+        <!-- Layouts in HTML can be achieved with different techniques :
+                HTML --- DIV
+                CSS --- float/flexbox/grid-->
+        <section style = "border:1px solid red;">
+            <!--1st Divison/Row-->
+            <header style = "border-bottom:1px solid red; display:flex;">
+                <div style = "flex:1;">
+                    <img src="https://www.achieversit.com/assets/images/logo-white.png" alt="Image not available">
+                </div>
+                <div style = "flex:4;">
+                    <ul style="display:flex">
+                        <li style = "flex:1;">
+                            <a href="#">About</a>
+                        </li>
+                        <li style = "flex:1;">
+                            <a href="#">Services</a>
+                        </li>
+                        <li style = "flex:1;">
+                            <a href="#">Placements</a>
+                        </li>
+                        <li style = "flex:1;">
+                            <a href="#">Clients</a>
+                        </li>
+                        <li style = "flex:1;">
+                            <a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <!--2nd Divison/Row-->
+            <div style = "border-bottom:1px solid red; ">
+                <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" style = "width:100%" alt="Image not available">
+                
+            </div>
+            <!--3rd Divison/Row-->
+            <main style = "display:flex; height:450px">
+                <div style = "flex:1;">3.1</div>
+                <div style = "flex:2; border-right:1px solid red;border-left:1px solid red;">3.2</div>
+                <div style = "flex:1;">3.3</div>
+            </main>
+            <!--4th Divison/Row-->
+            <footer style = "border-top:1px solid red; height:50px">4</footer>
+        </section>
+    </body>
+</html>

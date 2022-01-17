@@ -1,0 +1,102 @@
+                    CSS - Cascading Style Sheets
+
+CSS to apply style to the HTML elements in the page.
+
+History of CSS:
+
+    CSS 1.0
+    CSS 2.0
+    CSS 3.0 ---> Latest version of CSS
+
+Comments:
+
+    /*            */
+
+Different ways to apply styles :
+
+    Inline ---> within the element code
+    Internal    ---> in <head> tag, with the help of <style> tag 
+    External  ----> different file is used to apply styles and refered in the page(HTML file)
+
+Core concepts of CSS
+
+    selectors ---> helps developer to select an element in the page to apply style
+    properties ---> apply properties(styling) to an element
+
+INLINE CSS:
+
+    Eg:     <h1 style = "color:red;">Welcome to CSS</h1>
+
+    style --- Attribute
+    =  ---- Assignment operator
+    color ---- property
+    : ---- separator between property and values
+    ; --- Terminator
+
+When we have changes to styling --> there is difficulty in updating the style to each and every element
+
+Design Principle: 
+
+Separation of concern
+
+--> since html and css are written in combined, there is lots of confusion
+--> code has to be maintained separately
+
+Real time ---> there are lots of elements in the web page --> code redundancy
+
+INTERNAL CSS
+ within the <head> tag --> styling of elements is organised.
+
+Drawback of internal CSS: If the other forms/pages of the application need same stling --> then external CSS is important
+
+reuse of code ---> is the main advantage of EXTERNAL CSS
+
+
+PRIORITY OF STYLING : when you apply all inline, internal and external stylings on the same element
+
+<p> ---> inline ---> internal ---> external
+
+
+SELECTORS:
+
+CORE SELECTORS OF CSS
+Global Selectors:Allowas to select all the elements within the body 
+ *
+
+ *{
+     color:red;
+ }
+
+tag selectors:
+ h1      p       
+
+  h1{
+     color:red;
+ }
+
+class selectors:
+
+ .classname{
+     color:green;
+ }
+
+ID selector:
+
+ #id{
+     color:aqua;
+ }
+
+Attribute Selectors
+
+TASKS given in last week:(Please upload into your GITHub account)
+1. Important tags
+2. Elements --- try to use different elements in one HTML
+3. Absolute path and Relative path
+4. lists, tables
+5. forms - create a form with different inputs(text/radio/checkbox/dropdown/button)
+6. Layout - display:flex
+7. Inline, Internal, External CSS
+8. selectors - example for each selector and try to just check the other selectors for net class
+
+
+Priority of core selectors : ID --- CLASS --- TAG ---- GLOBAL 

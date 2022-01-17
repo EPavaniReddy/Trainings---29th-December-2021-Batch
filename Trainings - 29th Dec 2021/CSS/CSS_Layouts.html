@@ -1,0 +1,70 @@
+<!--
+    LAYOUTS:
+
+    float -- old technique
+    Values of float property are none/left/right
+    
+    box-sizing property helps to omit the calucation of padding and border.
+    Will not omit calculation of margin
+
+    flexbox -- display:flex;
+
+    Grid --- 
+-->
+
+<!Doctype html>
+<html>
+    <head>
+        <title> CSS Box Model Properties </title>
+        <style>
+            section.floatcontainer{
+                border:1px solid red;
+                float:left; /*Main property used to convert block level elements to inline elements*/
+                width:100%;
+                padding:20px;
+                box-sizing:border-box;
+            }
+            section.floatcontainer div{
+                float:left;
+                width:25%;
+                border:1px solid red;
+                box-sizing:border-box;
+                margin:2px;
+            }   
+            section.floatcontainer div:nth-child(2){
+                width:50%;
+            }
+
+            section.flexcontainer{
+                border:1px solid red;
+                display:flex;
+                padding:10px;
+                margin:10px;
+            }
+
+            section.flexcontainer div{
+                flex:1;
+                border:1px solid red;
+            }
+
+            section.flexcontainer div:nth-child(2){
+                flex:2;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>3 column layout using float</h1>
+        <section class="floatcontainer">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </section>
+        <h1>3 column layout using flex</h1>
+        <section class="flexcontainer">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,75 @@
+<!Doctype html>
+<html>
+    <head>
+        <title> Pseudo Selectors </title>
+        <style>
+            /* To select first and last child*/
+            ol li:first-child, ol li:last-child{
+                border:10px solid red;
+            }
+
+            /*all even items selection*/
+            ol li:nth-child(2n){
+                color:gold;
+            }
+
+            /*all odd items selection*/
+            ol li:nth-child(2n+1){
+                color:green;
+            }
+
+            /*if particular element selection is required*/
+            ol li:nth-child(3){
+                color:orange;
+            }
+
+            a:hover{
+                color:orange;
+            }
+
+            a:active{
+                color:green;
+            }
+
+            p::first-line{
+                color:red;
+            }
+
+            p::first-letter{
+                font-size:20px;
+            }
+
+            p::selection{
+                background-color: orange;
+            }
+
+            p::before{
+                content:"*************";
+            }
+
+            p::after{
+                content:"*************";
+            }
+        </style>
+    </head>
+    <body>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>JQUERY</li>
+            <li>Bootstrap</li>
+        </ol>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>JQUERY</li>
+            <li>Bootstrap</li>
+        </ul>
+        <a href="https://www.achieversit.com/" target="_blank">achieversit</a>
+
+        <p>AchieversIT provides an excellent way to learn from professional trainers. I have just completed my Digital Marketing course. The courses are well-structured.The trainers are subject matter experts that connect to students effectively and are good at answering your questions. I would highly recommend AchieversIT to anyone who appreciates structured courses. The support team provides excellent service, too. Keep up the superb work AchieversIT team.</p>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+
+selector{
+    property:value of the property;
+}
+
+single or multiple properties can be addressed.
+
+
+Box-Model properties:
+
+Border -- many types of borders
+Padding -- between border and content of the element
+Margin -- outside the border
+
+h1{
+    border: 1px solid red;
+}
+
+h1 --- selector
+border --- property
+1px --- width of the border
+solid --- border style type
+red: color of the border
+; Terminator
+: Separator
+
+
+
+
+
+Dimension properties:

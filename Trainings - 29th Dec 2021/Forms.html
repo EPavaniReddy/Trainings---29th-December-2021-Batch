@@ -1,0 +1,85 @@
+<!Doctype html>
+<html>
+    <head>
+        <title> Forms - HTML </title>
+    </head> 
+    <body>
+        <!--
+            FORMS IN HTML -
+        1. Login Form
+        2.Registration Form
+        3. Password reset
+
+        To collect inputs/information from the users of the application
+
+        FORM ATTRIBUTES: <form ></form>
+        method : GET/POST
+        action : server side URL
+        enctype : 'multiport/form-data'
+        HTML5 --- new attributes
+            Novalidate & autocomplete
+
+        FORM ELEMENTS : 
+        1. textbox --- value entered will be visible to you  {gauibwieuwwiv}
+        2. password --- value will be hidden
+        3. checkbox 
+        4. radio
+        5. dropdown
+        6. textarea --- multi line textbox
+        7. buttons --- submit/reset/cancel
+        
+        FORM ELEMENT ATTRIBUTES :
+        1. name
+        2. value ---  backend
+        3. selected 
+        4. disabled
+        5. read-only 
+        6. type --- textbox/radio/checkbox/button
+        -->
+        <form>
+            <fieldset>
+                <legend>Registration Form</legend>
+                <label>First Name</label>
+                <input type = "text" name ="fname"></br>
+                <label>Surname</label>
+                <input type = "text" name ="sname"></br>
+                <label>Mobile Number</label>
+                <input type = "text" name ="mnum"></br>
+                <label>Date of Birth</label>
+                <select id = "month" name = "month">
+                    <option value ="Jan">January</option>
+                    <option value ="Feb">February</option>
+                    <option value ="Mar">March</option>
+                    <option value ="Apr">April</option>
+                </select>
+                <select id = "day" name = "day">
+                    <option value ="1">1</option>
+                    <option value ="2">2</option>
+                    <option value ="3">3</option>
+                    <option value ="4">4</option>
+                </select>
+                <select id = "year" name = "year">
+                    <option value ="1994">1994</option>
+                    <option value ="1995">1995</option>
+                    <option value ="1996">1996</option>
+                    <option value ="1997">1997</option>
+                </select></br>
+                <label> Gender </label>
+                <input type = "radio" name = "gender" value = "Male">Male 
+                <input type = "radio" name = "gender" value = "Female">Female 
+                <input type = "radio" name = "gender" value = "Others">Others </br>
+                <label>Country</label>
+                <select id = "country" name = "country">
+                    <option value ="Ind">India</option>
+                    <option value ="US">US</option>
+                    <option value ="Aus">Australia</option>
+                    <option value ="UK">UK</option>
+                    <option value ="Canada">Canada</option>
+                </select></br>
+                <label>E-mail ID</label>
+                <input type = "text" name ="email"></br>
+                <input type = "submit" name = "register">
+            </fieldset>
+        </form>
+    </body>
+</html>

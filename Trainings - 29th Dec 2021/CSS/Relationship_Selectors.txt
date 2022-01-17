@@ -1,0 +1,11 @@
+Relationship Selectors : Parent ---- Child Relationship
+
+Direct children selectors: 
+
+ol > li --- selecting all the li elements that are direct children of ol
+ right side is the target for selection
+
+Descendant Selectors:
+
+ol li --- selecting all the elements that are direct / indirect children of ol
+

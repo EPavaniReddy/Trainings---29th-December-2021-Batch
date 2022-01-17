@@ -1,0 +1,35 @@
+                                        Application  {Front end development}
+
+                    Static                                             Dynamic
+
+            No interconnection with database                        
+            No change in controls
+
+        Technologies Required:                                  Technologies Required:
+    HTML, CSS - you can develop a statis application        HTML, CSS, JS, JQuery, AJAX, JSON, Bootstrap
+
+Notepad++ ---> write code manually
+                more grip on your syntax
+
+HTML 1.0
+ 2.0
+ 3.0
+ 4.0
+ DHTML  --- > <div> ---> Dynamic HTML
+ XHTML   ---> strict rules on coding practices
+ HTML 5.0 ----> Latest version of HTML
+
+
+ .html extension
+
+
+                            Core Concepts of HTML
+
+            Tags                             Elements                   Attributes
+
+    Single   Paired                 Inline        Block
+<img/>        <body></body>
+<br/>          <h1></h1>
+
+
+

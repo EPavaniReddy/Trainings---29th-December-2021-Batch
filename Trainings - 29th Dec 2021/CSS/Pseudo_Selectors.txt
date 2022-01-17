@@ -1,0 +1,39 @@
+Pseudo Selectors : Allows developer to style an element as per the state of it or order of the element
+
+ELements that are in first or last
+
+Eg:
+ol li:first-child, ol li:last-child{
+
+}
+
+All even items selectors
+Eg:
+
+li:nth-child(2n){
+
+} ---- in place of 2n you can use even
+All odd item slection
+
+Eg:
+
+li:nth-child(2n+1){
+    
+} ---- in plac eof 2n+1 you can use odd
+
+
+                <ol>
+                    <li>CSS 1.0</li>
+                    <li>CSS 2.0</li>
+                    <li>CSS 3.0</li>
+                </ol>
+
+Pseudo Selectors are of two types
+
+Pseudo Class Seclectors
+
+Pseudo Element Selectors - select element based on the state of the element
+
+anchor tag <a>
+
+States of this element - hover, active, visited, focus

@@ -1,0 +1,25 @@
+<!--Output tag 
+HTML <output> tag is used to display the result of some calculation (performed by JavaScript) 
+    or 
+the outcome of a user action (such as Input data into a form element).
+The <output> tag is a newly added tag and was introduced in HTML5.
+-->
+
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title>Output Tag</title>  
+</head>  
+<body>  
+ <p>Calculate the Sum of the two Numbers</p>  
+ <form oninput="res.value=parseInt(a.value)+parseInt(b.value);">  
+    <label>Enter First Value.</label><br>  
+    <input type="number" name="a" value=""/><br>  
+    +<br/>  
+    <label>Enter First Value.</label><br>   
+    <input type="number" name="b" value=""><br>  
+    =<br>  
+    Output is:<output name="res"></output>  
+ </form>  
+</body>  
+</html> 

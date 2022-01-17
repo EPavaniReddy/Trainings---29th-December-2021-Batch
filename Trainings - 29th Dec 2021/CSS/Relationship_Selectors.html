@@ -1,0 +1,50 @@
+<!Doctype html>
+<html>
+    <head>
+        <title> Relationship Selectors </title>
+        <style>
+            /* Direct Children selectors*/
+            ol > li{
+                border:1px solid red;
+                margin-bottom:10px;
+            }
+
+            /* Descendant Selectors*/
+            ul li{
+                color:gold;
+            }
+
+            .container > .vue{
+                color:green;
+            }
+        </style>
+    </head>
+    <body>
+        <ol>
+            <li>HTML
+                <ul>
+                    <li>HTML 1.0</li>
+                    <li>HTML 2.0</li>
+                    <li>HTML 3.0</li>
+                    <li>HTML 4.0</li>
+                    <li>DHTML</li>
+                    <li>XHTML</li>
+                    <li>HTML 5.0</li>
+                </ul>
+            </li>
+            <li>CSS
+                <ol>
+                    <li>CSS 1.0</li>
+                    <li>CSS 2.0</li>
+                    <li>CSS 3.0</li>
+                </ol>
+            </li>
+            <li>JS</li> 
+        </ol>
+        <section class = "container">
+            <div class ="react">React JS</div>
+            <div class = "ng">Angular JS</div>
+            <div class = "vue">VUE JS</div>
+        </section>
+    </body>
+</html>

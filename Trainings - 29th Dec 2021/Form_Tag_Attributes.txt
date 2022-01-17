@@ -1,0 +1,25 @@
+1.character_set	
+Specifies the character encodings that are to be used for the form submission
+
+2.action	    URL	
+Specifies where to send the form-data when a form is submitted
+
+3.autocomplete	on/off	
+Specifies whether a form should have autocomplete on or off
+
+4.enctype	application/x-www-form-urlencoded
+            multipart/form-data
+            text/plain	                    
+Specifies how the form-data should be encoded when submitting it to the server (only for method="post")
+
+5.method	get
+            post	Specifies the HTTP method to use when sending form-data
+
+6.name	    text	Specifies the name of a form
+
+7.novalidate	        Specifies that the form should not be validated when submitted. it is useful in bypassing all the validations
+
+8.target	_blank
+            _self
+            _parent
+            _top

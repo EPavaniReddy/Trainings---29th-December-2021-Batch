@@ -1,0 +1,50 @@
+ATTRIBUTE SELECTORS: Allows developer to select an element using Attribute
+
+1.  has attribute  --> selects elements which has that particular attribute
+
+  Eg: <a href="">Link</a> selscts elements which has href attribute
+
+  [href]{
+
+  }
+
+2. attribute value equals to ---> selects elements whose attribute value is exactly equal to the mentioned value.
+
+  Eg: <a href = "https://www.achieversit.com/" target = "_blank"> Achievers IT </a>
+
+    <img src="file path">
+
+  [href='https://www.achieversit.com/']{
+
+  }
+
+  [target = '_blank']{
+
+  }
+
+  [src = 'file path']{
+
+  }
+
+3. attribute value starts with
+
+ Eg:  [target ^= '_bla']
+
+4. attribute value ends with
+
+ Eg:  [target $= 'ank']
+
+5. attribute value contains
+
+ Eg:  [alt *= 'load']
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,95 @@
+
+HTML 4.0 ---> Tables 
+<table><tr><td> 
+---Tables only used to represent data in newer versions
+DHTML
+<div> were used to create the layouts
+XHTML 
+
+HTML 5.0 ---> Semantic tags ---> tags that have meaning in its name itself
+
+Search engine friendly --- Google, Firefox, Opera, Safari, Bing, Yahoo, msn
+
+<section>, <main>, <header>, <footer>
+
+
+FEATURES OF HTML5
+
+---> Its powerful than the older versions
+---> make sure that you always use semantic tags when u create a webpage or develop a webpage
+
+New features:
+
+section
+main
+header
+footer
+article 
+aside
+figure
+ figcaption
+audio <audio>
+ source
+video
+ source
+datalist --- > auto suggestions
+
+GRAPHICS
+canvas
+svg
+
+NEW FORM ATTRIBUTES:
+ ---> autocomplete ---> when you double tap on a partuclar field, it will show the values that have entered previously
+ ---> novalidate ---> by pass all the HTML validations done at element level
+
+NEW FORM ELEMENTS: input type
+
+Input types used in older versions: text password radio checkbox select
+
+Input types in HTML 5.0:
+email
+number
+tel 
+date
+month
+color
+url
+button
+time
+search
+
+Form Validation Attributes:
+
+required
+minlength
+maxlength
+minlength
+min 
+max
+pattern ----@-----.com
+autofocus
+
+---- Webstorage ---> Data is stored on the client machine ---> local storage
+                                                          ---> Session storage
+
+--- Geolocation ---> location based services --- ola, uber2, swiggy  live location
+
+--- Drag and Drop ---> introduced in HTML5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
